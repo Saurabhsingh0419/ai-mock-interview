@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react"; // Import Lucide icons
+import {  Twitter,  Linkedin } from "lucide-react"; // Import Lucide icons
 import { Link } from "react-router-dom";
 import { Container } from "@/components/container";
 import { MainRoutes } from "@/lib/helpers";
@@ -63,9 +63,10 @@ export const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">About Us</h3>
             <p>
-              We are committed to helping you unlock your full potential with
-              AI-powered tools. Our platform offers a wide range of resources to
-              improve your interview skills and chances of success.
+              We are dedicated to helping you reach your full potential through AI-powered tools
+              Our platform provides a comprehensive suite of resources 
+              designed to sharpen your interview skills 
+              and maximize your chances of success.
             </p>
           </div>
 
@@ -88,25 +89,17 @@ export const Footer = () => {
           {/* Fourth Column: Address and Social Media */}
           <div>
             <h3 className="font-bold text-lg mb-4">Contact Us</h3>
-            <p className="mb-4">123 AI Street, Tech City, 12345</p>
+            <p className="mb-4">TECHCITY, VASANTDADAPATIL COLLEGE, SION </p>
             <div className="flex gap-4">
+              
               <SocialLink
-                href="https://facebook.com"
-                icon={<Facebook size={24} />}
-                hoverColor="text-blue-500"
-              />
-              <SocialLink
-                href="https://twitter.com"
+                href="https://x.com/ByteSaurabh"
                 icon={<Twitter size={24} />}
                 hoverColor="text-blue-400"
               />
+           
               <SocialLink
-                href="https://instagram.com"
-                icon={<Instagram size={24} />}
-                hoverColor="text-pink-500"
-              />
-              <SocialLink
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/saurabh-singh-2674aa253/"
                 icon={<Linkedin size={24} />}
                 hoverColor="text-blue-700"
               />
